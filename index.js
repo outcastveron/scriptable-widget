@@ -2,10 +2,10 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: orange icon-glyph: quote-right
 
-const User = 'USER'
+const User = 'OutcastVeron'
 const City = 'beijing'
-const WeatherKey = '' // you can get it from https://dev.heweather.com/
-const AQIToken = '' // you can get it from https://aqicn.org/data-platform/token/#/
+const WeatherKey = '0315fe95ae324af4b3f82d596c5318f9' // you can get it from https://dev.heweather.com/
+const AQIToken = 'f5c0751baeaa04f29a5934816fbb016aacde381f' // you can get it from https://aqicn.org/data-platform/token/#/
 
 const aqi = await getAQI()
 const lunarData = await getLunarData()
